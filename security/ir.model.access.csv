@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_odoo_android_sync_odoo_android_sync,odoo_android_sync.odoo_android_sync,model_odoo_android_sync_odoo_android_sync,base.group_user,1,1,1,1
