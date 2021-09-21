@@ -3,15 +3,14 @@
     'name': "odoo_android_sync",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+        Module to sync assistance information from an Android App """,
 
     'description': """
-        Long description of module's purpose
+        Module to sync assistance information from an Android App
     """,
 
-    'author': "My Company",
-    'website': "http://www.yourcompany.com",
+    'author': "Jose Calderon",
+    'website': "http://www.osm-soft.io",
 
     # Categories can be used to filter modules in modules listing
     # Check https://github.com/odoo/odoo/blob/14.0/odoo/addons/base/data/ir_module_category_data.xml
@@ -20,7 +19,7 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': ['base', 'hr_attendance'],
 
     # always loaded
     'data': [
